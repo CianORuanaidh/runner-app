@@ -1,0 +1,58 @@
+header {
+    background: #F83E40;
+    color: white;
+}
+
+header img {
+    width: 200px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    text-transform: uppercase;
+}
+
+.post-holder,
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .log-out {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container p {
+    background: white;
+    color: #F83E40;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+    transition: all 0.5s ease;
+}
+.container p:hover {
+    color: #f9f9f9;
+    background: #F83E40;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+
+.error-message {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,111 @@
+.login {
+    max-width: 500px;
+    margin: 100px auto 0 auto;
+}
+
+.logo {
+    width: 150px;
+    margin: 0 auto 50px auto;
+}
+
+.inputs {
+    -webkit-box-shadow: 0px 10px 20px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 20px -20px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px -20px rgba(0,0,0,0.75);
+}
+
+.inputs .input {
+    padding: 0 0 0 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px 10px 0 0;
+    background: white;
+}
+
+.inputs .input:last-of-type {
+    border-top: 0px;
+    border-radius: 0 0 10px 10px;
+}
+
+.inputs input {
+    padding: 20px 0;
+    width: calc(100% - 100px);
+    border: 0px solid white;
+    border-radius: 0px 10px 0 0;
+    padding-left: 10px;
+}
+
+.inputs .input:last-of-type input{
+    border-radius: 0 0 10px 0;
+}
+
+.inputs label {
+    display: inline-block;
+    width: 100px;
+    color: #999;
+}
+.submit-button {
+    display: block;
+    width: 250px;
+    background: #F83E40;
+    color: white;
+    margin: 0 auto;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.auxilary-buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+}
+
+.auxilary-buttons label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.auxilary-buttons input[type="checkbox"] {
+    border: 1px solid #F83E40;
+}
+
+.auxilary-buttons p:hover {
+    color: #F83E40;
+    cursor: pointer;
+    text-decoration: underline;
+    /* color: white; */
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input:focus {
+    background: #F83E40;
+    color: white;
+}
+
+.submit-button:hover {
+    background: #f9f9f9;
+    color: #F83E40;
+    border: 1px solid #F83E40;
+    transition: all 0.5s ease;
+    -webkit-box-shadow: 0px 10px 20px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 20px -20px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px -20px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 520px) {
+    html {
+        font-size: 100%;
+    }
+    .login {
+        margin: 80px 2.5% 0 2.5%;
+    }
+  }
