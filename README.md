@@ -1,3 +1,30 @@
+Runner Front End Submsiion
+Cian O'Ruanaidh
+
+This app is built using ReactJS
+Pages are displayed using conditional rendering.
+User can log and user can log out. 
+When logged in, posts page is displayed.
+When logged out, login page is displayed.
+When user is loged in, an accessToken is created and stored in sessionStorage with 'accessToken' key.
+sessionStorage accessToken is cleared when user logs out.
+
+## set up app using below commands
+install app using `yarn install`
+start app using `yarn start`
+app should be viewable in your browser at `http://localhost:3000/`
+
+
+
+
+
+
+
+
+
+
+__Create-react-app Boilerplate README below__
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
