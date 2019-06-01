@@ -1,4 +1,4 @@
-Runner Front End Submsiion
+Runner Front End Submision
 Cian O'Ruanaidh
 
 This app is built using ReactJS
