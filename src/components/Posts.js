@@ -38,11 +38,14 @@ class Posts extends Component {
                 <h1>View Posts Below</h1>
                 <div className="post-holder">
                 {
+                // check for API error 
                 this.state.apiFailed ? 
+                    // if error, return error message
                     errorMessage 
                     : 
+                    // else return aray of posts
                     this.state.posts.map(post => <Post post={post} key={post.id}/>)
-                    }
+                }
                 </div>
             </div>
         )

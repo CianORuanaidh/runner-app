@@ -20,8 +20,8 @@ class RunnerApp extends Component {
         return (
             <div className="RunnerApp">
                 {   
-                    // if we have accessToken & are logged in, show posts page
-                    // else, show login page 
+                    // if we have accessToken & are logged in, render posts page
+                    // else, show render page 
                     this.state.loggedIn && !!sessionStorage.accessToken ? 
                     <Posts loggedOut={this.loggedOut}/> 
                     : 
